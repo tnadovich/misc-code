@@ -32,7 +32,8 @@ set nobackup
 inoremap ;; <Esc>
 set nowrap
 set mouse=a
-set number
+set relativenumber
+set background=dark
 
 " rust syntax highlighting
 au BufRead,BufNewFile *.rc set filetype=rust
